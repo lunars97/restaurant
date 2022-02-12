@@ -8,6 +8,7 @@
 .app__aboutUs-overlay img {
     width: 25rem;
     height: 27rem;
+
     z-index: 0;
 }
 .app__aboutUs-content {
@@ -31,8 +32,8 @@
 }
 .app__aboutUs-content_history {
     z-index: 1;
+    flex: 1;
     display: flex;
-
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
@@ -42,4 +43,31 @@
 .app__aboutUs-content_history p {
     margin: 2rem 0;
     color: var(--color-grey);
+}
+@media screen and (max-width: 2000px) {
+    .app__aboutUs-content_knife img {
+        height: 530px;
+    }
+    .app__aboutUs-content_about p,
+    .app__aboutUs-content_history p {
+        margin: 2rem 0;
+    }
+}
+@media screen and (max-width: 900px) {
+    .app__aboutUs {
+        flex-direction: column;
+    }
+    .app__aboutUs-content_knife {
+        margin: 4rem 0;
+    }
+}
+@media screen and (max-width: 650px) {
+    .app__aboutUs-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .app__aboutUs-overlay img {
+        width: 80%;
+        height: 320px;
+    }
 }

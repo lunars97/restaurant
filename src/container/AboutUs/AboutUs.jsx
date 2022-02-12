@@ -16,30 +16,27 @@ const AboutUs = () => (
                 <img src={images.spoon} alt="spoon" />
                 <p className="p__opensans">
                     Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et
-                    quasi architecto beatae vitae dicta sunt explicabo.
+                    voluptatem accusantium doloremque laudantium
                 </p>
                 <button type="button" className="custom__button">
                     Know more
                 </button>
             </div>
-        </div>
-        <div className="app__aboutUs-content_knife flex__center">
-            <img src={images.knife} alt="knife" />
-        </div>
-        <div className="app__aboutUs-content_history">
-            <h1 className="headtext__cormorant">Our History</h1>
-            <img src={images.spoon} alt="spoon" />
-            <p className="p__opensans">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-            </p>
-            <button type="button" className="custom__button">
-                Know more
-            </button>
+
+            <div className="app__aboutUs-content_knife flex__center">
+                <img src={images.knife} alt="knife" />
+            </div>
+            <div className="app__aboutUs-content_history">
+                <h1 className="headtext__cormorant">Our History</h1>
+                <img src={images.spoon} alt="spoon" />
+                <p className="p__opensans">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium
+                </p>
+                <button type="button" className="custom__button">
+                    Know more
+                </button>
+            </div>
         </div>
     </div>
 );
