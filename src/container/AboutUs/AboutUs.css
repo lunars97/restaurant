@@ -53,7 +53,7 @@
         margin: 2rem 0;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1150px) {
     .app__aboutUs {
         flex-direction: column;
     }
